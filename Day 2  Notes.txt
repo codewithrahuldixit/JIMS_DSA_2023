@@ -1,0 +1,117 @@
+=================================
+Static Example: 
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+void increement(){
+   static int x;
+    cout<<"The value of X :"<<x;
+    cout<<endl;
+    x++;
+}
+int main() {
+    // Write C++ code here
+    increement();
+    increement();
+    increement();
+    increement();
+
+    return 0;
+}
+Output : 
+The value of X :0
+The value of X :1
+The value of X :2
+The value of X :3
+=====================================================
+// Class is Created & No Arg Invoked
+#include <iostream>
+using namespace std;
+class A {
+  int x ;
+  public :
+  A(){
+    x=2;
+  }
+  A(int x){
+   this ->x=x;
+  }
+  void show (){
+    cout<<"The value of X :"<<x<<endl;
+    
+  }
+};
+int main() {
+  A a1;
+  a1.show();
+    return 0;
+}
+===============================================================
+//Parameter Constructor invoked
+int main() {
+  A a1(21);
+  a1.show();
+    return 0;
+}
+==================================================================
+//Reference ariable created : By & : Giving another name to existing memory
+#include <iostream>
+using namespace std;
+class A {
+  int x ;
+  public :
+  A(){
+    x=2;
+  }
+  A(int x){
+   this ->x=x;
+  }
+  void setX(int x){
+     this ->x=x;
+  }
+  void show (){
+    cout<<"The value of X :"<<x<<endl;
+    
+  }
+};
+int main() {
+  A a1(21);
+  A & a2 = a1;
+  a1.show();
+  a2.setX(10);
+  a1.show();
+    return 0;
+}
+=================================================
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class A {
+  int x ;
+ 
+  public :
+   static int y;
+  A(){
+    x=2;
+  }
+  A(int x){
+   this ->x=x;
+  }
+  void setX(int x){
+     this ->x=x;
+  }
+  void show (){
+    cout<<"The value of X :"<<x<<endl;
+    
+  }
+};
+int A ::y;
+int main() {
+  A a1 ;
+  A & a2 = a1;
+  cout<<A::y<<endl;
+  a1.show();
+  a2.setX(10);
+  a1.show();
+    return 0;
+}

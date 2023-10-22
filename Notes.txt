@@ -1,0 +1,25 @@
+=================================
+Static Example: 
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+void increement(){
+   static int x;
+    cout<<"The value of X :"<<x;
+    cout<<endl;
+    x++;
+}
+int main() {
+    // Write C++ code here
+    increement();
+    increement();
+    increement();
+    increement();
+
+    return 0;
+}
+Output : 
+The value of X :0
+The value of X :1
+The value of X :2
+The value of X :3

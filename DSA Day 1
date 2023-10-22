@@ -1,0 +1,431 @@
+=================================Pattern=============================
+Pattern_1. Problem Statement: Given an integer N, print the following pattern?
+
+	* * * * *
+	* * * * *
+	* * * * *
+	* * * * *
+	* * * * *
+	
+Example 1:
+Input: N = 3
+Output: 
+* * *
+* * *
+* * *
+
+
+Example 2:
+Input: N = 6
+Output:
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+===============================================================================
+Pattern_02. Problem Statement: Given an integer N, print the following pattern?
+
+* 
+* * 
+* * *
+* * * *
+* * * * *
+* * * * * *
+	
+Input Format: N = 3
+Result: 
+* 
+* * 
+* * *
+
+Input Format: N = 6
+Result:
+* 
+* * 
+* * *
+* * * *
+* * * * *
+* * * * * *
+=====================================================================
+Pattern_03 : Right-Angled Number Pyramid
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1
+1 2 
+1 2 3
+
+Input Format: N = 6
+Result:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+
+=====================================================================
+Pattern_04: Right-Angled Number Pyramid – II
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1
+2 2 
+3 3 3
+
+Input Format: N = 6
+Result:
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+6 6 6 6 6 6
+
+===================================================================
+Pattern-5: Inverted Right Pyramid
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+* * *
+* * 
+*
+
+Input Format: N = 6
+Result:
+* * * * * *
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+====================================================================
+Pattern – 6: Inverted Numbered Right Pyramid
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1 2 3
+1 2
+1
+
+Input Format: N = 6
+Result:
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2 
+1
+====================================================================
+Pattern – 7: Star Pyramid
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+  *  
+ *** 
+*****   
+Input Format: N = 6
+Result:
+     *     
+    ***    
+   *****   
+  *******  
+ ********* 
+***********
+====================================================================
+Pattern – 8: Inverted Star Pyramid
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+*****  
+ ***
+  *   
+Input Format: N = 6
+Result:     
+***********
+ *********
+  *******
+   ***** 
+    ***    
+     *
+====================================================================
+Pattern – 9: Diamond Star Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+  *  
+ ***
+***** 
+*****  
+ ***
+  *   
+Input Format: N = 6
+Result:   
+     *
+    ***
+   ***** 
+  *******
+ *********
+***********  
+***********
+ *********
+  *******
+   ***** 
+    ***    
+     *
+====================================================================
+Pattern – 10: Half Diamond Star Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+  *  
+  **
+  ***  
+  **
+  *   
+Input Format: N = 6
+Result:   
+     *
+     **
+     *** 
+     ****
+     *****
+     ******  
+     *****
+     ****
+     ***    
+     **
+     *
+====================================================================
+Pattern – 11: Binary Number Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1
+01
+101
+
+Input Format: N = 6
+Result:   
+1
+01
+101
+0101
+10101
+010101
+====================================================================
+Pattern – 12: Number Crown Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1    1
+12  21
+123321
+
+Input Format: N = 6
+Result:   
+1          1
+12        21
+12       321
+1234    4321
+12345  54321
+123456654321
+======================================================================
+Pattern – 13: Increasing Number Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1
+2 3
+4 5 6
+
+Input Format: N = 6
+Result:   
+1
+2  3
+4  5  6
+7  8  9  10
+11  12  13  14  15
+16  17  18  19  20  21
+=======================================================================
+Pattern-14: Increasing Letter Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+A
+A B
+A B C
+
+Input Format: N = 6
+Result:   
+A
+A B
+A B C
+A B C D
+A B C D E
+A B C D E F
+=======================================================================
+Pattern-15: Reverse Letter Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+A B C
+A B
+A
+
+Input Format: N = 6
+Result:   
+A B C D E F
+A B C D E 
+A B C D
+A B C
+A B
+A
+========================================================================
+Pattern – 16: Alpha-Ramp Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+A
+B B
+C C C
+
+Input Format: N = 6
+Result:   
+A 
+B B
+C C C
+D D D D
+E E E E E
+F F F F F F
+=======================================================================
+Pattern – 17: Alpha-Hill Pattern
+Problem Statement: Given an integer N, print the following pattern :
+Input Format: N = 3
+Result: 
+  A  
+ ABA 
+ABCBA
+
+
+Input Format: N = 6
+Result:   
+     A     
+    ABA    
+   ABCBA   
+  ABCDCBA  
+ ABCDEDCBA 
+ABCDEFEDCBA
+=======================================================================
+Pattern-18: Alpha-Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+
+Input Format: N = 3
+Result: 
+C
+B C
+A B C
+
+Input Format: N = 6
+Result:   
+F
+E F
+D E F
+C D E F
+B C D E F
+A B C D E F
+========================================================================
+Pattern-19: Symmetric-Void Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+******
+**  **
+*    *
+*    *
+**  **
+******
+
+Input Format: N = 6
+Result:   
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+==========================================================================
+Pattern – 20: Symmetric-Butterfly Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+*    *
+**  **
+******
+**  **
+*    *
+
+
+Input Format: N = 6
+Result:   
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+=============================================================================
+Pattern – 21: Hollow Rectangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+***
+* *
+***
+
+Input Format: N = 6
+Result:   
+******
+*    *
+*    *
+*    *
+*    *
+******
+
+===============================================================================
+Pattern – 22: The Number Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+3 3 3 3 3 
+3 2 2 2 3 
+3 2 1 2 3 
+3 2 2 2 3 
+3 3 3 3 3
+
+Input Format: N = 6
+Result:   
+6 6 6 6 6 6 6 6 6 6 6 
+6 5 5 5 5 5 5 5 5 5 6 
+6 5 4 4 4 4 4 4 4 5 6 
+6 5 4 3 3 3 3 3 4 5 6 
+6 5 4 3 2 2 2 3 4 5 6 
+6 5 4 3 2 1 2 3 4 5 6 
+6 5 4 3 2 2 2 3 4 5 6 
+6 5 4 3 3 3 3 3 4 5 6 
+6 5 4 4 4 4 4 4 4 5 6 
+6 5 5 5 5 5 5 5 5 5 6 
+6 6 6 6 6 6 6 6 6 6 6
