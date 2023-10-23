@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/acer/Desktop/Rahul Material/JIMS 2023/JIMS_DSA_2023",
-      "program": "c:/Users/acer/Desktop/Rahul Material/JIMS 2023/JIMS_DSA_2023/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
