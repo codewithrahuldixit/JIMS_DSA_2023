@@ -266,6 +266,6 @@ int main(){
 //pattern_10(5);
 //pattern_11(5);
 //pattern_12(5);
-//pattern_14(3);
-bitExtract();
+pattern_14(3);
+//bitExtract();
 }

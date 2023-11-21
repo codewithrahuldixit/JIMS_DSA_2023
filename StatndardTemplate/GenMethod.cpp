@@ -6,6 +6,12 @@ using namespace std;
 
 // One function works for all data types. This would work
 // even for user defined types if operator '>' is overloaded
+int sum (int x,int y){
+	return x+y;
+}
+float sum (float x,float y){
+	return x+y;
+}
 template <typename T> T myMax(T x, T y)
 {
 	return (x > y) ? x : y;

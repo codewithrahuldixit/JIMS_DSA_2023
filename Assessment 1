@@ -1,0 +1,124 @@
+Q1 : Number Crown Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+1    1
+12  21
+123321
+
+Input Format: N = 6
+Result:   
+1          1
+12        21
+12       321
+1234    4321
+12345  54321
+123456654321
+
+
+Q2 :  The Number Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+Input Format: N = 3
+Result: 
+3 3 3 3 3 
+3 2 2 2 3 
+3 2 1 2 3 
+3 2 2 2 3 
+3 3 3 3 3
+
+Input Format: N = 6
+Result:   
+6 6 6 6 6 6 6 6 6 6 6 
+6 5 5 5 5 5 5 5 5 5 6 
+6 5 4 4 4 4 4 4 4 5 6 
+6 5 4 3 3 3 3 3 4 5 6 
+6 5 4 3 2 2 2 3 4 5 6 
+6 5 4 3 2 1 2 3 4 5 6 
+6 5 4 3 2 2 2 3 4 5 6 
+6 5 4 3 3 3 3 3 4 5 6 
+6 5 4 4 4 4 4 4 4 5 6 
+6 5 5 5 5 5 5 5 5 5 6 
+6 6 6 6 6 6 6 6 6 6 6
+
+Q3 : Check if a number is Armstrong Number or not ?
+        LINK : https://www.codingninjas.com/studio/problems/check-armstrong_589?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+Q4 : Find GCD of two numbers ? 
+        LINK : https://www.codingninjas.com/studio/problems/hcf-and-lcm_840448?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+Q5 : Sum of first N Natural Numbers
+   :- Problem statement: Given a number ‘N’, find out the sum of the first N natural numbers.
+   Example 1:
+        Input: N=5
+        Output: 15
+        Explanation: 1+2+3+4+5=15
+
+        Example 2:
+        Input: N=6
+        Output: 21
+        Explanation: 1+2+3+4+5+6=15
+
+Coding Ninja :https://www.codingninjas.com/studio/problems/sum-of-first-n-numbers_8876068?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+Q6 : Factorial of a Number : Iterative and Recursive
+Problem Statement: Given a number X,  print its factorial.
+Example 1:
+Input: X = 5
+Output: 120
+Explanation: 5! = 5*4*3*2*1Reverse a given Array
+
+Example 2:
+Input: X = 3
+Output: 6
+Explanation: 3!=3*2*1
+
+Coding Ninja :https://www.codingninjas.com/studio/problems/factorial-numbers-not-greater-than-n_8365435?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+Q7 :Problem Statement: You are given an array. The task is to reverse the array and print it. 
+
+Example 1:
+Input: N = 5, arr[] = {5,4,3,2,1}
+Output: {1,2,3,4,5}
+Explanation: Since the order of elements gets reversed the first element will occupy the fifth position, the second element occupies the fourth position and so on.
+
+Example 2:
+Input: N=6 arr[] = {10,20,30,40}
+Output: {40,30,20,10}
+Explanation: Since the order of elements gets reversed the first element will occupy the fifth position, the second element occupies the fourth position and so on.
+
+Coding Ninja :https://www.codingninjas.com/studio/problems/reverse-an-array_8365444?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+Q8: Check if the given String is Palindrome or not
+Problem Statement: “Given a string, check if the string is palindrome or not.”  A string is said to be palindrome if the reverse of the string is the same as the string.
+
+Example 1:
+Input: Str =  “ABCDCBA”
+Output: Palindrome
+Explanation: String when reversed is the same as string.
+
+Example 2:
+Input: Str = “Rahul Dixit”
+Output: Not Palindrome
+Explanation: String when reversed is not the same as string.
+
+Leet Code Link : https://leetcode.com/problems/valid-palindrome/
+
+
+Q9 : Print Fibonacci Series up to Nth term
+Problem Statement: Given an integer N. Print the Fibonacci series up to the Nth term.
+
+Example 1:
+Input: N = 5
+Output: 0 1 1 2 3 5
+Explanation: 0 1 1 2 3 5 is the fibonacci series up to 5th term.(0 based indexing)
+
+Example 2:
+Input: 6
+
+Output: 0 1 1 2 3 5 8
+Explanation: 0 1 1 2 3 5 8 is the fibonacci series upto 6th term.(o based indexing)
+
+Leet Code Link : https://leetcode.com/problems/fibonacci-number/
+
+Q10 : Create a Stack Using Link List ?
+Q11 : Create a Generic Queue Using Array?
