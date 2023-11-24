@@ -28,19 +28,20 @@ Output: 1,2,3,4,5
 Explanation: After sorting the array is: 1, 2, 3, 4, 5*/
 void selection_sort(int arr[], int n) {
   // selection sort
+  int mini;
   for (int i = 0; i < n - 1; i++) {
-    int mini = i;
+     mini = i;
     for (int j = i + 1; j < n; j++) {
       if (arr[j] < arr[mini]) {
         mini = j;
       }
     }
-    int temp = arr[mini];
-    arr[mini] = arr[i];
-    arr[i] = temp;
+    if(mini!=i)
+        swap(arr[i],arr[mini]);
   }
 }
 /*Example 1:
+
 Input: N = 6, array[] = {13,46,24,52,20,9}
 Output: 9,13,20,24,46,52
 Explanation: 
@@ -62,6 +63,18 @@ void insertion_sort(int arr[], int n) {
         }
     }
 }
+void insertion_sort_01(int arr[], int n) {
+    for (int i = 1; i <= n - 1; i++) {
+        int j=i;
+        int item = arr[i];
+        while (j > 0 && item < arr[j-1]) {
+            arr[j]=arr[j-1];
+                j--;
+        }
+        arr[j]=item;
+    }
+}
+
 /*Merge Sort 
 Example 1:
 Input: N=5, arr[]={4,2,1,6,7}
@@ -145,7 +158,10 @@ int main(){
     input_Array(arr,5);
     output_Array(arr,5);
    // delete_Array(arr,2,5);
-   bubble_sort(arr,5);
+   ///bubble_sort(arr,5);
+  // selection_sort(arr,5);
+  insertion_sort_01(arr,5);
+   cout<<"The output After Insertion Sort "<<endl;
     output_Array(arr,5);
 
 }
